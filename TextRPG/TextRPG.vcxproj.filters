@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01.Core">
+      <UniqueIdentifier>{a09428c5-9388-495c-a240-8a3559300bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Stage">
+      <UniqueIdentifier>{7ad9a6ec-6b24-4a71-acb3-97fa39611342}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object">
+      <UniqueIdentifier>{5dfe1460-bab5-4145-be1d-bbdc6a411446}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Store">
+      <UniqueIdentifier>{e61df021-c7d9-4e3f-afc2-8e5fdcd3ffb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\01.Character">
+      <UniqueIdentifier>{50d1442e-8991-40b8-acf2-f141748687b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Object\02.Item">
+      <UniqueIdentifier>{f2ecce55-326f-4b95-88f8-60127728b22e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Core\01.File">
+      <UniqueIdentifier>{5ed75682-17c9-4733-add9-2d4b70413467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06.Editor">
+      <UniqueIdentifier>{16a24b7c-87fa-4561-9597-2ce4a5fdb086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05.Inventory">
+      <UniqueIdentifier>{924015bd-2c59-4052-bd75-4fc118399479}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>01.Core</Filter>
+    </ClCompile>
+    <ClCompile Include="StageManager.cpp">
+      <Filter>02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageEasy.cpp">
+      <Filter>02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageHard.cpp">
+      <Filter>02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageNormal.cpp">
+      <Filter>02.Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Store.cpp">
+      <Filter>04.Store</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreArmor.cpp">
+      <Filter>04.Store</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreManager.cpp">
+      <Filter>04.Store</Filter>
+    </ClCompile>
+    <ClCompile Include="StoreWeapon.cpp">
+      <Filter>04.Store</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>03.Object\01.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>03.Object\01.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>03.Object\01.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>03.Object\01.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>03.Object\01.Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>03.Object\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemArmor.cpp">
+      <Filter>03.Object\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemWeapon.cpp">
+      <Filter>03.Object\02.Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>05.Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="FileStream.cpp">
+      <Filter>01.Core\01.File</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorCore.cpp">
+      <Filter>06.Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorMonster.cpp">
+      <Filter>06.Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorItem.cpp">
+      <Filter>06.Editor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="value.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>01.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StageManager.h">
+      <Filter>02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageEasy.h">
+      <Filter>02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageHard.h">
+      <Filter>02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageNormal.h">
+      <Filter>02.Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Flags.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Store.h">
+      <Filter>04.Store</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreArmor.h">
+      <Filter>04.Store</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreManager.h">
+      <Filter>04.Store</Filter>
+    </ClInclude>
+    <ClInclude Include="StoreWeapon.h">
+      <Filter>04.Store</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>03.Object\01.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>03.Object\01.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>03.Object\01.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>03.Object\01.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>03.Object\01.Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>03.Object\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemArmor.h">
+      <Filter>03.Object\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemWeapon.h">
+      <Filter>03.Object\02.Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>05.Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="FileStream.h">
+      <Filter>01.Core\01.File</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorCore.h">
+      <Filter>06.Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorMonster.h">
+      <Filter>06.Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorItem.h">
+      <Filter>06.Editor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TextRPG.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

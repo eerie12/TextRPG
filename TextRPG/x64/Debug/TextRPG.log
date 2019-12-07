@@ -1,0 +1,39 @@
+﻿  Character.cpp
+  Core.cpp
+  EditorCore.cpp
+  EditorItem.cpp
+f:\program files\unity(練習)\自己pr\新しいフォルダー\新しいフォルダー (3)\textrpg\editoritem.cpp(147): warning C4244: '=': 'T' から 'int' への変換です。データが失われる可能性があります。
+          with
+          [
+              T=float
+          ]
+f:\program files\unity(練習)\自己pr\新しいフォルダー\新しいフォルダー (3)\textrpg\editoritem.cpp(149): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+  EditorMonster.cpp
+  FileStream.cpp
+f:\program files\unity(練習)\自己pr\新しいフォルダー\新しいフォルダー (3)\textrpg\filestream.cpp(97): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+f:\program files\unity(練習)\自己pr\新しいフォルダー\新しいフォルダー (3)\textrpg\filestream.cpp(101): warning C4267: '+=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  Inventory.cpp
+  Item.cpp
+f:\program files\unity(練習)\自己pr\新しいフォルダー\新しいフォルダー (3)\textrpg\item.cpp(57): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+f:\program files\unity(練習)\自己pr\新しいフォルダー\新しいフォルダー (3)\textrpg\item.cpp(65): warning C4267: '=': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  ItemArmor.cpp
+  ItemWeapon.cpp
+  Monster.cpp
+  Obj.cpp
+f:\program files\unity(練習)\自己pr\新しいフォルダー\新しいフォルダー (3)\textrpg\obj.cpp(39): warning C4267: '初期化中': 'size_t' から 'int' に変換しました。データが失われているかもしれません。
+  ObjectManager.cpp
+  Player.cpp
+  Stage.cpp
+  StageEasy.cpp
+  StageHard.cpp
+  StageManager.cpp
+  main.cpp
+  StageNormal.cpp
+  コードを生成中...
+  コンパイル中...
+  Store.cpp
+  StoreArmor.cpp
+  StoreManager.cpp
+  StoreWeapon.cpp
+  コードを生成中...
+  TextRPG.vcxproj -> F:\Program Files\unity(練習)\自己pr\新しいフォルダー\新しいフォルダー (3)\x64\Debug\TextRPG.exe

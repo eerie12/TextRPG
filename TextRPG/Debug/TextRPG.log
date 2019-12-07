@@ -1,0 +1,19 @@
+﻿  Character.cpp
+  Core.cpp
+  Monster.cpp
+  Obj.cpp
+  ObjectManager.cpp
+f:\program files\unity(練習)\自己pr\textrpg(19.11.28)\textrpg\objectmanager.cpp(27): error C2664: 'void CObj::SetName(char *)': 引数 1 を 'const char [9]' から 'char *' へ変換できません。
+  f:\program files\unity(練習)\自己pr\textrpg(19.11.28)\textrpg\objectmanager.cpp(27): note: 文字列リテラルからの変換では const 修飾子が失われます (/Zc:strictStrings を参照)
+f:\program files\unity(練習)\自己pr\textrpg(19.11.28)\textrpg\objectmanager.cpp(33): error C2664: 'void CObj::SetName(char *)': 引数 1 を 'const char [9]' から 'char *' へ変換できません。
+  f:\program files\unity(練習)\自己pr\textrpg(19.11.28)\textrpg\objectmanager.cpp(33): note: 文字列リテラルからの変換では const 修飾子が失われます (/Zc:strictStrings を参照)
+f:\program files\unity(練習)\自己pr\textrpg(19.11.28)\textrpg\objectmanager.cpp(39): error C2664: 'void CObj::SetName(char *)': 引数 1 を 'const char [9]' から 'char *' へ変換できません。
+  f:\program files\unity(練習)\自己pr\textrpg(19.11.28)\textrpg\objectmanager.cpp(39): note: 文字列リテラルからの変換では const 修飾子が失われます (/Zc:strictStrings を参照)
+  Player.cpp
+  Stage.cpp
+  StageEasy.cpp
+  StageHard.cpp
+  StageManager.cpp
+  main.cpp
+  StageNormal.cpp
+  コードを生成中...
